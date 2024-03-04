@@ -14,7 +14,7 @@ cd property-pulse-nextjs
 To create a new Next.js app, open your terminal and run the following command:
 
 ```bash
-npx create-next-app ./
+npx create-next-app@latest ./
 ```
 
 You will be asked some questions. You can answer them as you see fit. I will answer with the defaults, which are as follows:
@@ -27,6 +27,8 @@ You will be asked some questions. You can answer them as you see fit. I will ans
 √ Would you like to use App Router? (recommended) ... Yes
 √ Would you like to customize the default import alias (@/*)? ... No
 ```
+
+**`Note:`** that `@` points to the root folder. `@/*` means - all the files and folders in the root folder. And `@/app` refers to the app folder in the root folder.
 
 ## Running the Project
 

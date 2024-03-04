@@ -18,17 +18,17 @@ Think back to when you first started learning HTML and CSS. You would create an 
 
 The advantage to static websites is that they are very fast when it comes to load times, however they are not very dynamic and the interface is not very interactive. Which may be fine for some websites, but not for others.
 
-### Single Page Applications
+### Single Page Applications (SPA)
 
 As you learned more about web development, you probably learned about JavaScript and how you could use it to make your websites more interactive. You might have learned about AJAX and the fetch api and how to fetch data from a server and update the page without having to refresh the entire page. React and other frontend frameworks took this and ran with it. You could build entire applications that only had one HTML file and all of the content was loaded and updated with JavaScript. So when you go to a url like /about, the entire page is not reloaded in the browser, it's just the content that changes. 
 
 The advantage to this is that the user experience is much faster and interactive. The disadvantage is that the initial load time can be slower and it can be harder to make your application SEO friendly because everything is loaded with JavaScript.
 
-### Server Rendered Applications
+### Server-Side Rendered (SSR) Applications
 
 Server-side rendered applications are a mix of static websites and single page applications. When you go to a url, the server will generate the HTML and CSS and send it to the browser just like a static website. But then the JavaScript will take over and make the page more interactive and dynamic. This is the best of both worlds. The initial load time is fast and the user experience is fast and seamless. That's what Next.js is all about. You can even create API routes and serverless functions that run on the server and are not exposed to the client. This is a powerful feature that you can't do with React alone.
 
-### Static Site Generators
+### Static Site Generators (SSG)
 
 Next.js can also be used to generate static websites. It will generate all of the HTML and CSS at build time and then send it to the browser. This means that the server does not have to do any work when a user requests a page. This is the fastest type of website. You can have interactive content, however if the content changes, you have to rebuild the entire site and redeploy it. This is great for personal blogs and documentation sites. 
 
